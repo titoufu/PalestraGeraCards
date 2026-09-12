@@ -1,0 +1,23 @@
+# Ambiente virtual
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Credencial do Firebase — NUNCA pode ir pro Git
+serviceAccountKey.json
+
+# Saída do empacotamento (PyInstaller)
+build/
+dist/
+*.spec
+
+# Binário externo do wkhtmltoimage — é grande e baixado à parte, não é código nosso
+wkhtmltoimage_bin/
+
+# Cards já gerados — são imagens de saída, não código-fonte
+cards_gerados/
+
+# Arquivo temporário criado durante a geração de cada card
+_tmp_card.html
