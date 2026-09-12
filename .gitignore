@@ -4,7 +4,7 @@ venv/
 # Cache do Python
 __pycache__/
 *.pyc
-
+*.zip
 # Credencial do Firebase — NUNCA pode ir pro Git
 serviceAccountKey.json
 
